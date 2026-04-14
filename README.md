@@ -35,4 +35,8 @@ Let's Differentiate A Regular Network Simulator And My Idea About Event Driven N
     #||*************||*************||***********||# 
     ###############################################
 
-    
+Now, You Should Feel Concept Clear Here, That What Is The Difference Here, Between A Regular Network Simulator And Difference Will Be With My Event Driven Network Simulator That Will Be Also A Stat Machine That Just Track Events At Next Level.
+
+LAST WORDS : THIS WILL BE VERY "TRUE" EXPERIENCE FOR ME TO NOT JUST MAKING A NETWORK SIMULATOR BUT ALSO MODELING MY THINKING FROM START TO CREATE A DIFFERENT TYPE OF NETWORK SIMULATOR, SO I PROCEED WITH MY OWN CREATIVE DESIGN THAT WILL NOT BE FOUND OUT BY YOUTUBE PLATFORM. I AM SO EXCITED.
+
+STAY CONNECTED FOR CHECK OUT UPDATES ;)
