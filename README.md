@@ -11,14 +11,28 @@ Let's Differentiate A Regular Network Simulator And My Idea About Event Driven N
 
     Regular Network Simulator :
 
-    #############################################
-    #***********|***********|*******|***********#
-    #Router-Code|Switch-Code|Pc-Code|Server-Code# <-----Objects And Their Code Here
-    #*******************************************#
-    #|packet-field|addresses|data|checksum|time|# <-----Actual Packet Here
-    #*******************************************#
-    #|If-else||List||Data_Structure||Database|  # <-----Packet Processing Logic Here
-    #*******************************************#
-    #Firewall|Polices|Authentication|Keys|Logs| # <-----Security Here                                           #
-    #*******************************************#
-    #############################################
+    ###############################################
+    #*********************************************#
+    #|Router-Code|Switch-Code|Pc-Code|Server-Code|# <-----Objects And Their Code Here
+    #*********************************************#
+    #|packet-field|addresses|data|checksum|time|**# <-----Actual Packet Here
+    #*********************************************#
+    #|Firewall|Polices|Authentication|Keys|Logs|**# <-----Security Here
+    #*********************************************#
+    #|If-else|List|Data_Structure|Database|*******# <-----Packet Processing Logic Here
+    #*********************************************#
+    ###############################################
+
+    Event Driven Network Simulator :
+
+    ###############################################
+    #||*************||*************||***********||#
+    #||*************||Event_Tracker||***********||# <---Security Policy Here
+    #||*************||*************||***********||#
+    #||*************||Event_interfc||***********||# <-- Both Packet And Network Objects Here (All As Stat Machine)
+    #||*************||*************||***********||#
+    #||*************||Event_Manager||***********||# <---Packet Processing Here
+    #||*************||*************||***********||# 
+    ###############################################
+
+    
